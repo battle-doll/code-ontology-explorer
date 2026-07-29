@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Code Ontology Explorer dark logo</title>
+  <desc id="desc">A bright teal knowledge graph arranged around a code bracket</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B1A"/>
+      <stop offset="1" stop-color="#0F2F2C"/>
+    </linearGradient>
+  </defs>
+  <rect x="36" y="36" width="952" height="952" rx="220" fill="url(#bg)"/>
+  <g fill="none" stroke="#2DD4BF" stroke-width="28" stroke-linecap="round">
+    <path d="M270 273L512 170L754 273L812 535L654 768L370 768L212 535Z"/>
+    <path d="M270 273L370 768M754 273L654 768M212 535L812 535"/>
+  </g>
+  <g fill="#5EEAD4">
+    <circle cx="512" cy="170" r="62"/>
+    <circle cx="270" cy="273" r="62"/>
+    <circle cx="754" cy="273" r="62"/>
+    <circle cx="212" cy="535" r="62"/>
+    <circle cx="812" cy="535" r="62"/>
+    <circle cx="370" cy="768" r="62"/>
+    <circle cx="654" cy="768" r="62"/>
+  </g>
+  <rect x="315" y="330" width="394" height="320" rx="88" fill="#0B2725" stroke="#5EEAD4" stroke-width="24"/>
+  <path d="M462 421L390 490L462 559M562 421L634 490L562 559" fill="none" stroke="#99F6E4" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

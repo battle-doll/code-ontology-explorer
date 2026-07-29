@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explore Code Ontology"
+  short_description: "Build and query local code knowledge graphs"
+  default_prompt: "Use $explore-code-ontology to map this authorized repository into a local RDF code ontology."

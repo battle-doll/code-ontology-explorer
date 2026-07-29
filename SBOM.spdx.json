@@ -1,0 +1,43 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "code-ontology-explorer-0.1.0",
+  "documentNamespace": "https://github.com/battle-doll/code-ontology-explorer/sbom/0.1.0",
+  "creationInfo": {
+    "created": "2026-07-29T00:00:00Z",
+    "creators": [
+      "Person: battle-doll",
+      "Tool: manual-spdx-2.3"
+    ],
+    "licenseListVersion": "3.25"
+  },
+  "packages": [
+    {
+      "name": "code-ontology-explorer",
+      "SPDXID": "SPDXRef-Package",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "https://github.com/battle-doll/code-ontology-explorer",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2026 battle-doll",
+      "supplier": "Person: battle-doll",
+      "primaryPackagePurpose": "APPLICATION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/battle-doll/code-ontology-explorer@0.1.0"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package"
+    }
+  ]
+}

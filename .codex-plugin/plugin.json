@@ -1,0 +1,46 @@
+{
+  "name": "code-ontology-explorer",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Build and explore local RDF code ontologies for authorized Java, Spring, and Python repositories.",
+  "author": {
+    "name": "battle-doll",
+    "url": "https://github.com/battle-doll"
+  },
+  "homepage": "https://github.com/battle-doll/code-ontology-explorer#readme",
+  "repository": "https://github.com/battle-doll/code-ontology-explorer",
+  "keywords": [
+    "codex",
+    "code-analysis",
+    "ontology",
+    "rdf",
+    "spring",
+    "python"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Code Ontology Explorer",
+    "shortDescription": "Local-first code knowledge graphs",
+    "longDescription": "Statically map an authorized Java, Spring, or Python repository into a local knowledge graph. Search symbols, inspect possible change impact, export portable RDF/Turtle, and create a self-contained visualization. The bundled analyzer does not execute target code or make direct network requests; normal Codex processing remains governed by OpenAI's terms and privacy policy.",
+    "developerName": "battle-doll",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Local static analysis",
+      "RDF/Turtle export",
+      "Change-impact exploration",
+      "Offline graph visualization"
+    ],
+    "websiteURL": "https://github.com/battle-doll/code-ontology-explorer",
+    "privacyPolicyURL": "https://github.com/battle-doll/code-ontology-explorer/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/battle-doll/code-ontology-explorer/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Preflight this authorized repository for a local code ontology.",
+      "Build a local RDF code ontology after I approve the output path.",
+      "Explore the possible change impact of a symbol in my ontology."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}
